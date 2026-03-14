@@ -8,11 +8,11 @@ Users can browse products, select variants, view EMI options, and proceed with t
 
 # 🌐 Live Demo
 
-💻 **Frontend (Vercel)**
-[EMI-Plan Frontend Vercel](https://emi-plan-website.vercel.app/)
+💻 [**Frontend (Vercel)**](https://emi-plan-website.vercel.app/)
 
-⚙️ **Backend API (Render)**
-[EMI-Plan Backend Render](https://emi-backend-s6mz.onrender.com/api/products)
+
+⚙️ [**Backend API (Render)**](https://emi-backend-s6mz.onrender.com/api/products)
+
 
 ---
 
