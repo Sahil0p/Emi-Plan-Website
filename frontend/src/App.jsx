@@ -1,5 +1,4 @@
 import AppRoutes from "./routes/AppRoutes";
-// import { ProductProvider } from "./context/ProductContext";
 import { ProductProvider } from "./context/ProductProvider";
 
 function App() {
