@@ -1,4 +1,4 @@
-# 📱 EMI Product App
+# 📱 Emi Plan Website
 
 A **full-stack web application** that displays smartphones with multiple **EMI plans backed by mutual funds**, inspired by fintech platforms like **Snapmint**.
 
@@ -9,10 +9,10 @@ Users can browse products, select variants, view EMI options, and proceed with t
 # 🌐 Live Demo
 
 💻 **Frontend (Vercel)**
-https://your-vercel-url.vercel.app
+[EMI-Plan Frontend Vercel](https://emi-plan-website.vercel.app/)
 
 ⚙️ **Backend API (Render)**
-https://emi-backend-s6mz.onrender.com/api/products
+[EMI-Plan Backend Render](https://emi-backend-s6mz.onrender.com/api/products)
 
 ---
 
@@ -88,68 +88,6 @@ Each EMI plan displays:
 
 * Products with multiple variants
 * EMI plans linked to products
-
----
-
-# 📁 Project Structure
-
-```
-emi-product-app
-│
-├── backend
-│   ├── config
-│   │   └── db.js
-│   │
-│   ├── controllers
-│   │   └── productController.js
-│   │
-│   ├── middleware
-│   │   └── errorMiddleware.js
-│   │
-│   ├── models
-│   │   ├── Product.js
-│   │   └── EMIPlan.js
-│   │
-│   ├── routes
-│   │   └── productRoutes.js
-│   │
-│   ├── seed
-│   │   └── seedData.js
-│   │
-│   ├── server.js
-│   └── package.json
-│
-├── frontend
-│   ├── src
-│   │   ├── components
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── ProductCard.jsx
-│   │   │   ├── ProductDetails.jsx
-│   │   │   ├── EMIPlanCard.jsx
-│   │   │   ├── VariantSelector.jsx
-│   │   │   └── ProceedButton.jsx
-│   │   │
-│   │   ├── pages
-│   │   │   ├── Home.jsx
-│   │   │   └── ProductPage.jsx
-│   │   │
-│   │   ├── services
-│   │   │   └── api.js
-│   │   │
-│   │   ├── routes
-│   │   │   └── AppRoutes.jsx
-│   │   │
-│   │   ├── styles
-│   │   │   ├── layout.css
-│   │   │   └── ProductPage.module.css
-│   │   │
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   │
-│   └── package.json
-│
-└── README.md
-```
 
 ---
 
@@ -254,8 +192,8 @@ Example response:
 ## 1️⃣ Clone Repository
 
 ```
-git clone https://github.com/yourusername/emi-product-app.git
-cd emi-product-app
+git clone https://github.com/Sahil0p/Emi-Plan-Website
+cd Emi-Plan-Website
 ```
 
 ---
