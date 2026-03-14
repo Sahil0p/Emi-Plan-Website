@@ -1,0 +1,54 @@
+.card{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:16px;
+  border-radius:10px;
+  border:1px solid #e5e7eb;
+  background:#f9fafb;
+  cursor:pointer;
+}
+
+.selected{
+  border:2px solid #16a34a;
+  background:#ecfdf5;
+}
+
+.leftSection{
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+
+.radio{
+  width:18px;
+  height:18px;
+  border:2px solid #16a34a;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.dot{
+  width:8px;
+  height:8px;
+  background:#16a34a;
+  border-radius:50%;
+}
+
+.monthly{
+  font-weight:600;
+}
+
+.cashback{
+  color:#16a34a;
+  font-size:13px;
+}
+
+.interest{
+  font-size:12px;
+  background:#d9f99d;
+  padding:4px 10px;
+  border-radius:14px;
+}

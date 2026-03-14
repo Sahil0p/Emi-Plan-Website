@@ -1,0 +1,35 @@
+.galleryContainer{
+  display:flex;
+  gap:20px;
+}
+
+.thumbnailColumn{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.thumbnail{
+  width:70px;
+  height:70px;
+  object-fit:contain;
+  border:1px solid #ddd;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.active{
+  border:2px solid #0f766e;
+}
+
+.mainImageContainer{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.mainImage{
+  width:300px;
+  object-fit:contain;
+}
